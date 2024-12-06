@@ -8,6 +8,8 @@ public class Player {
         weapon.attack();
         weapon.unequipped();
 
+        //
+
         Weapon weapon1 = new Staff(new IceEnchantment());
         weapon1.equip();
         weapon1.attack();
